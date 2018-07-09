@@ -1,8 +1,9 @@
 ﻿## CrcCheckCopy: Compare a big number of files by using their CRC stamps
 
-CheckCopy is a command line utility that lets you compare the files of different folders. 
-It generates a CRC32 for each file and stores it in one CRCs stamps file. This small file can then be used to either check/compare another folder hierarchy, or be used as an integrity check of the same folder hierarchy. 
-The files are compared in binary mode.
+CheckCopy is a command line utility that lets you compare/verify a large number of files. 
+It generates a single CRC-stamps file that contains the CRCs of each file. 
+This small file can then be used to either check/compare another folder hierarchy, or be used as an integrity check of the same folder hierarchy. 
+
 
 The comparison is completed in two steps.
 
@@ -30,10 +31,4 @@ More info at the [CrcCheckCopy website](https://www.StarMessageSoftware.com/crcc
 - Windows XP and later, 32/64 bit
 
 **Version history**
-+ 1.1
-    + Fixed: Removed the dependency on "msvcp140.dll" & "vcruntime140.dll".  
-	Now, no extra files are needed.
-    + Fixed: Problems files/folders with unicode/Arabic/Persian/Greek file names.
-
-+ 1.0
-    + Initial public release
+# [CrcCheckCopy Changelog](https://github.com/starmessage/CrcCheckCopy/blob/master/ChangeLog.md)
