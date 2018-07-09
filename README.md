@@ -8,7 +8,7 @@ More info at the [CrcCheckCopy website](https://www.StarMessageSoftware.com/crcc
 
 The comparison is completed in two steps.
 
-**Step1 (Source scanning): reads all files of the source folder and creates in the current working directory one CRC stamps file ("CRCstamps.txt").**
+### Step1 (Source scanning): reads all files of the source folder and creates in the current working directory one CRC stamps file ("CRCstamps.txt").
 
 Syntax:
 ```sh
@@ -19,7 +19,7 @@ If the path contains spaces, then include the path in quotes, e.g.
 CrcCheckCopy /scan "C:\folder with spaces"
 ```
 
-**Step2 (Verification): uses the CRC stamps file of Step1 to verify all the files at the destination folder.**
+### Step2 (Verification): uses the CRC stamps file of Step1 to verify all the files at the destination folder.**
 Syntax:
 ```sh
 CrcCheckCopy /verify <DestinationFolder>
@@ -27,8 +27,8 @@ CrcCheckCopy /verify <DestinationFolder>
 If the destination folder has additional files that do not exist in the source folder, then these files will not be checked nor be reported.
 
 
-**Operating system compatibility:**
+### Operating system compatibility:
 - Windows XP and later, 32/64 bit
 
-**Version history**
-[CrcCheckCopy Changelog](https://github.com/starmessage/CrcCheckCopy/blob/master/ChangeLog.md)
+### Version history
+- [CrcCheckCopy Changelog](https://github.com/starmessage/CrcCheckCopy/blob/master/ChangeLog.md)

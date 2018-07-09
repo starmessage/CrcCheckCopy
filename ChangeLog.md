@@ -5,8 +5,8 @@ CheckCopy is a command line utility that lets you compare/verify a large number 
 It generates a single CRC-stamps file that contains the CRCs of each file. 
 This small file can then be used to either check/compare another folder hierarchy, or be used as an integrity check of the same folder hierarchy. 
 
-[CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).
-[CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).
+[CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
+[CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
 ## [upcoming versions] - Unreleased
 
