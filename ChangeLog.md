@@ -8,6 +8,11 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
+## [1.3] - 2018-07-12
+
+### Fixed
+- Bug in the performance statistics report for total sizes > 2GB
+
 ## [1.2] - 2018-07-10
 
 ### Added
