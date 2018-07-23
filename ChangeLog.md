@@ -8,7 +8,7 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
-## [1.4] MacOS edition - 2018-07-21
+## [1.4] - 2018-07-23
 
 ### Added
 - MacOS edition. CrcCheckCopy is now a cross platform command line utility: Runs under Windows and Mac OSX  
