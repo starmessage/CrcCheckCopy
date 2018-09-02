@@ -9,19 +9,21 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
 
-## [1.5] - Unreleased
+## [1.5] - 2018-09-02
 
 ### Added
 - Sorting of filepaths.  
 The CRC stamps file contains now a sorted list of filepaths. Up to v1.4 the sequence of the files was unspecified (provided by the underlying directory table of the disk).  
+You can disable the sorting using the switch "/ns" (no sorting).  
+
 Having a sorted list of filepaths, allows you to compare two CRC stamp files.  
 Some power users might prefer to compate the CRC stamp files, instead of using the /verify mode of CrcCheckCopy.  
-For example, this trick allows you to run the /scan mode on two disks at the same time. Normally, you would need to wait for the /scan mode to complete before you can proceed to the /veify mode.  
-You can disable the sorting using the switch "/ns" (no sorting).
+For example, this trick allows you to run the /scan mode on two disks at the same time. Normally, you would need to wait for the /scan mode to complete before you can proceed to the /verify mode.  
+
 
 - Keep the computer awake while the program runs (No sleep functionality).  
 The computer will not enter low power (sleep) mode. This is useful for crc scans that take a lot of time and the computer goes to idle mode and the file comparison pauses.  
-You can disable the sorting using the switch "/as" (allow sleep).
+You can allow the computer to go to idle state by using the switch "/as" (allow sleep).
 
 - Show progress.  
 The program will show a file counter next to the "Ok" indicator, e.g. 1293/187471, meaning it is processing the 1293th file of a total of 187471 files.  
