@@ -37,6 +37,7 @@ If the destination folder has additional files that do not exist in the source f
 
 ### Operating system compatibility:
 - Windows XP and later, 32/64 bit
+- MacOS
 
 ### Version history
 - [CrcCheckCopy Changelog](https://github.com/starmessage/CrcCheckCopy/blob/master/ChangeLog.md)
