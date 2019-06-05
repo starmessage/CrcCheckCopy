@@ -8,7 +8,7 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
-## [1.6] - (unpublished)
+## [1.6] - 2018-06-05
 
 ### Changed
 - Internal improvements
