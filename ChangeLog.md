@@ -8,6 +8,17 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
+## [1.6] - (unpublished)
+
+### Changed
+- Internal improvements
+
+### Added
+- Usage statistics.  
+SoftMeter, our application usage analytics library was added in CrcCheckCopy.  
+This is a completely anonymised solution that will help us deliver a better product to you.  
+During the first run the program will ask for your consent to enable SoftMeter.  
+More info at https://www.starmessagesoftware.com/crccheckcopy
 
 ## [1.5] - 2018-09-02
 
