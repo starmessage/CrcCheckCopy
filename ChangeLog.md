@@ -18,7 +18,7 @@ This small file can then be used to either check/compare another folder hierarch
 SoftMeter, our application usage analytics library was added in CrcCheckCopy.  
 This is a completely anonymised solution that will help us deliver a better product to you.  
 During the first run the program will ask for your consent to enable SoftMeter.  
-More info at https://www.starmessagesoftware.com/crccheckcopy
+More info at https://www.starmessagesoftware.com/softmeter/data
 
 ## [1.5] - 2018-09-02
 
