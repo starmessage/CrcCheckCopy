@@ -8,6 +8,13 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
+## [1.7] - 2018-06-06
+
+### Changed
+
+- Internal improvements for large files (>4GB) under Windows
+- Ignore empty lines in CRCstamps.txt
+
 ## [1.6] - 2018-06-05
 
 ### Changed
