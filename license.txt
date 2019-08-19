@@ -1,0 +1,32 @@
+﻿======================================
+SoftMeter - License Agreement [v1.0]
+================================================
+https://www.starmessagesoftware.com/crccheckcopy
+================================================
+
+This License Agreement is a legal agreement between:
+A) the Author (StarMessageSoftware.com) of this software, CrcCheckCopy, which  includes computer software 
+   and may include associated media, and “online” or  electronic documentation and resources (“SOFTWARE”) and
+B) you, the user of the SOFTWARE (either an individual or a single entity).
+
+
+THIRD PARTIES INVOLVED
+---------------------------
+The SOFTWARE uses Google's measurement protocol to send anonymous usage data for the purpose of improving the SOFTWARE,
+monitoring its proper operation and get aggregated statistics about the popularity of the SOFTWARE.
+You are asked to consent to this data collection, and you may agree or refuse at anytime.
+
+
+DISCLAIMER OF WARRANTY
+----------------------
+This SOFTWARE and the accompanying files and online resources and services are given "as is" and without any warranties
+as of their proper operation or their safe coexistence with other software or data.
+NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED.
+
+
+NO LIABILITY FOR DAMAGES
+------------------------
+In no event shall the Author of this Software be liable for any special, consequential, incidental or indirect damages 
+whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business 
+information, or any other pecuniary loss) arising out of the use of or inability to use this product, even if the 
+Author of this Software is aware of the possibility of such damages and known defects.
