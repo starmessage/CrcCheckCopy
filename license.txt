@@ -1,4 +1,4 @@
-﻿======================================
+﻿================================================
 SoftMeter - License Agreement [v1.0]
 ================================================
 https://www.starmessagesoftware.com/crccheckcopy
@@ -11,7 +11,7 @@ B) you, the user of the SOFTWARE (either an individual or a single entity).
 
 
 THIRD PARTIES INVOLVED
----------------------------
+----------------------
 The SOFTWARE uses Google's measurement protocol to send anonymous usage data for the purpose of improving the SOFTWARE,
 monitoring its proper operation and get aggregated statistics about the popularity of the SOFTWARE.
 You are asked to consent to this data collection, and you may agree or refuse at anytime.
