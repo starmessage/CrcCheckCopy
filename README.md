@@ -1,6 +1,6 @@
 ﻿## CrcCheckCopy: Compare a big number of files by using their CRC stamps
 
-CheckCopy is a command line utility that lets you compare/verify a large number of files. 
+CheckCopy is a free command line utility that lets you compare/verify a large number of files. 
 It generates a single CRC-stamps file that contains the CRCs of each file. 
 This small file can then be used to either check/compare another folder hierarchy, or be used as an integrity check of the same folder hierarchy. 
 
