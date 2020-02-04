@@ -8,6 +8,12 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
+## [1.9] - 2020-02-04
+
+### Fixed
+
+- When the folder to scan does not exist, the CRCstamps.txt looks as invalid.
+
 ## [1.8] - 2019-08-19
 
 ### Fixed
