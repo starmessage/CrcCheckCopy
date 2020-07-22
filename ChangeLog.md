@@ -15,6 +15,11 @@ This small file can then be used to either check/compare another folder hierarch
 - Under Windows XP and Windows server 2003 32bit, there was a warning about the filesizes that do not match. 
 But the comparison was proceeding reliably, despite the warning message. Checking of the filesizes is now fixed.
 
+### Changed
+- When you turn ON or OFF the telemetry, the program will inform you where the INI file with your choise is stored.
+- Better error message when the CRCstamps.txt cannot be created (while scanning the files)
+- Better error message when the CRCstamps.txt file is not found or could not be opened (while verifying the files).
+
 ## [1.9] - 2020-02-04
 
 ### Fixed

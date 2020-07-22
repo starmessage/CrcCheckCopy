@@ -10,11 +10,22 @@ A) the Author (StarMessageSoftware.com) of this software, CrcCheckCopy, which  i
 B) you, the user of the SOFTWARE (either an individual or a single entity).
 
 
+TELEMETRY
+----------------------
+The SOFTWARE has optional telemetry functionality used for the purpose of improving the SOFTWARE, monitoring 
+its proper operation and get aggregated statistics about its usage.
+The data include information like the operating system, screen resolution, language of the operating system, 
+your city and country, any crashes of the program. 
+The data do NOT contain information like your IP address, your username, the filenames scanned, the contents
+of the files.
+You will be asked to consent to this data collection, and you may change your decision also at anytime in
+the future.
+
+
 THIRD PARTIES INVOLVED
 ----------------------
-The SOFTWARE uses Google's measurement protocol to send anonymous usage data for the purpose of improving the SOFTWARE,
-monitoring its proper operation and get aggregated statistics about the popularity of the SOFTWARE.
-You are asked to consent to this data collection, and you may agree or refuse at anytime.
+If you enable the telemetry functionality of the SOFTWARE, Google Analytics will be used to collect the 
+anonymous usage data. Google Analytics is the most popular website analytics platform.
 
 
 DISCLAIMER OF WARRANTY
