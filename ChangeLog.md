@@ -8,6 +8,11 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
+## [2.2] - Unpublished
+
+### Added
+- Find duplicate files by their filesize and CRC32 (files that have different filename but are actually the same).
+
 ## [2.1] - 2020-09-29
 
 ### Added

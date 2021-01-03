@@ -40,6 +40,8 @@ CrcCheckCopy /v <DestinationFolder>
 ```
 If the destination folder has additional files that do not exist in the source folder, then these files will not be checked nor be reported.
 
+### Detailed guide
+[How does it compare two folders](https://www.starmessagesoftware.com/crccheckcopy/how-it-works)
 
 ### Operating system compatibility:
 - Windows XP and later, 32/64 bit
