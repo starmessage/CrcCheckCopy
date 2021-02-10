@@ -11,7 +11,15 @@ This small file can then be used to either check/compare another folder hierarch
 ## [2.2] - Unpublished
 
 ### Added
-- Find duplicate files by their filesize and CRC32 (files that have different filename but are actually the same).
+- Find zero byte files.
+- Find duplicate files by their filesize and CRC32 (The filename is not examined: only the file size and its contents are checked).
+- New command-line switch /d to scan folders for duplicate files.  
+CrcCheckCopy /d path-to-scan-for-duplicates  
+The scan results with the zero sized files and the duplicate files are saved in a file named "CrcCheckCopy-report-duplicates.txt"  
+You can consider the zero byte files as a special kind of duplicate files: They have the same file size kai same contents.  
+
+### Changed
+- During the scan mode, (with the /scan switch) the zero bytes and duplicate files are added in the end of the CRCstamps.txt file for you to be notified about them. 
 
 ## [2.1] - 2020-09-29
 
