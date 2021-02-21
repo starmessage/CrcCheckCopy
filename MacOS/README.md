@@ -1,8 +1,8 @@
-﻿## CrcCheckCopy: Compare a big number of files by using their CRC stamps
+﻿## CrcCheckCopy: Compare folders on Mac 
 
-CheckCopy is a free command line utility that lets you compare/verify a large number of files.  
+[CrcCheckCopy](https://www.starmessagesoftware.com/crccheckcopy) is a free command line utility that lets you compare folders and verify a large number of  files using their CRC hashes.  
 This is the MacOS edition that you can run from the MacOS terminal.   
-See examples of the command line syntax at the [CrcCheckCopy website](https://www.StarMessageSoftware.com/crccheckcopy)
+See examples of the command line syntax at our website: [Compare folders on Mac](https://www.starmessagesoftware.com/crccheckcopy/how-it-works#folder-compare-mac)
 
 
 [![HitCount](http://hits.dwyl.io/starmessage/badges.svg)](https://www.starmessagesoftware.com/)

@@ -1,10 +1,24 @@
 ﻿## CrcCheckCopy: Compare a big number of files by using their CRC stamps
 
-CheckCopy is a free command line utility that lets you compare/verify a large number of files. 
-It generates a single CRC-stamps file that contains the CRCs of each file. 
+CheckCopy is a free command line utility that lets you compare folders and verify their files. 
+It generates a single file that contains the CRC hashes of each file. 
 This small file can then be used to either check/compare another folder hierarchy, or be used as an integrity check of the same folder hierarchy. 
 
 More info at the [CrcCheckCopy website](https://www.StarMessageSoftware.com/crccheckcopy)
+
+## Features
+- Compare folders.
+- Create CRC hash of each file (like a digital signature of the file).
+- Cross platform (Windows, MacOS)
+- Continue the comparison on another Operating System: Lets you compare a folder structure on Windows with its backup copy on a Mac/Macbook.
+- Creates a report file with the comparison results.
+- Finds duplicate files (since ver 2.2).
+- Creates a single file with the CRC hashes of every file. This file can be used to compare another folder, or be reused in the same folder in the future to make sure that no file was deleted in the meantime or has been altered. In this way, it adds a digital signature to the whole folder structure and its files.
+- No need for concurrent access to the two folders that must be compared.
+- Ensure integrity of backups: Store the CRC file together with the backup and you will be able to validate the integrity of the files and their contents at any time in the future.
+
+## Donate
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.starmessagesoftware.com/crccheckcopy/download#donate)
 
 ## Download
 - [Windows executable](https://github.com/starmessage/CrcCheckCopy/raw/master/Windows/CrcCheckCopy.exe)
