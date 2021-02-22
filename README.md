@@ -1,4 +1,4 @@
-﻿## CrcCheckCopy: Compare a big number of files by using their CRC stamps
+## CrcCheckCopy: Compare a big number of files by using their CRC stamps
 
 CheckCopy is a free command line utility that lets you compare folders and verify their files. 
 It generates a single file that contains the CRC hashes of each file. 
@@ -8,14 +8,18 @@ More info at the [CrcCheckCopy website](https://www.StarMessageSoftware.com/crcc
 
 ## Features
 - Compare folders.
-- Create CRC hash of each file (like a digital signature of the file).
-- Cross platform (Windows, MacOS)
-- Continue the comparison on another Operating System: Lets you compare a folder structure on Windows with its backup copy on a Mac/Macbook.
-- Creates a report file with the comparison results.
-- Finds duplicate files (since ver 2.2).
-- Creates a single file with the CRC hashes of every file. This file can be used to compare another folder, or be reused in the same folder in the future to make sure that no file was deleted in the meantime or has been altered. In this way, it adds a digital signature to the whole folder structure and its files.
+- Compare file contents and verify them.
+- Finds duplicate files (since ver 2.2), even if they have different filenames and different extensions and are stored in completely different folders.
+- Creates the CRC hash of each file (like a digital signature of the file).
+- Creates a single file with the CRC hashes of every file. This file can be used to compare another folder, or to verify the same folder in the future: to make sure that no file was deleted in the meantime or has been altered. In this way, it adds a digital signature to the whole folder structure and its files.
 - No need for concurrent access to the two folders that must be compared.
+- No need for network connection or internet bandwidth when comparing folders on remote computers: Only the CRC signatures file needs to be transferred between them. The program will run locally.
 - Ensure integrity of backups: Store the CRC file together with the backup and you will be able to validate the integrity of the files and their contents at any time in the future.
+- Cross platform (Windows, MacOS)
+- Portable app. No installation needed. 
+- Continue the comparison on another Operating System: Lets you compare a folder structure on Windows with its backup copy on a Mac/Macbook.
+- Creates a report file with the comparison results, the zero sized files and the duplicate files found.
+- The report is in plain text so you can furher process or parse it with other tools, e.g. import in to excel.
 
 ## Donate
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.starmessagesoftware.com/crccheckcopy/download#donate)
