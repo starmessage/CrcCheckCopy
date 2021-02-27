@@ -8,18 +8,19 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
-## [2.2] - Unpublished
+## [2.2] - 2021-02-26
 
 ### Added
 - Find zero byte files.
 - Find duplicate files by their filesize and CRC32 (The filename is not examined: only the file size and its contents are checked).
 - New command-line switch /d to scan folders for duplicate files.  
 CrcCheckCopy /d path-to-scan-for-duplicates  
-The scan results with the zero sized files and the duplicate files are saved in a file named "CrcCheckCopy-report-duplicates.txt"  
+The list of the zero sized files and the duplicate files is saved in a file named "CrcCheckCopy-report-duplicates.txt"  
 You can consider the zero byte files as a special kind of duplicate files: They have the same file size kai same contents.  
+- Donation reminder added. Donations are good for your karma.
 
 ### Changed
-- During the scan mode, (with the /scan switch) the zero bytes and duplicate files are added in the end of the CRCstamps.txt file for you to be notified about them. 
+- During the scan mode, (with the /scan switch) at the end of the CRCstamps.txt file, there is an extra section for the zero-bytes files and duplicate files for you to be notified about them. 
 
 ## [2.1] - 2020-09-29
 
