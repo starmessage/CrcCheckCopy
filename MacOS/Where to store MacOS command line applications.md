@@ -18,6 +18,7 @@ MacOS power users suggest two locations:
 Comparison of the benefits and dissadvanages of each location:
 | /usr/local/bin/   | ~/bin     |
 | ----------------- | --------- |
+| As a unix heritage, the folder /usr/local/bin is for command line applications and scripts that belong to the system and not to a specific user. |  ~/bin is an arbitrary but reasonably chosen folder to store application binaries per user |
 | Folder contents available to all users. | Folder contents available only to current user. |
 | The folder probably already exists and contains other utilities as well. | The folder probably does not exist. |
 | If the folder does not exist, you can create it via the finder or from the Terminal with the command:<br/>```sh sudo mkdir -p /usr/local/bin ``` | If the folder does not exist, you can create it via the finder or from the Terminal with the command:<br/>```sh mkdir ~/bin ``` |
@@ -26,8 +27,7 @@ Comparison of the benefits and dissadvanages of each location:
 | Will be wiped if you do a clear MacOS reinstall. | Preserved as part of your Home folder backups. |
 | Fixed folder name. | You can name this folder what ever you want. |
 
-<sup>*</sup>You can add it to the PATH variable by modifying the shell startup scripts (~/.bash_profile for bash which is the standard shell):  
-
+<sup>*</sup>You can add it to the PATH variable by modifying the shell startup scripts (~/.bash_profile for bash which is the standard shell) and adding this line:   
 ```sh  export PATH=$PATH:~/bin ```
 
 After you save the command-line Mac utility to the folder you prefer, you still need to give it permissions to run as executable. This needs to be done just once, using the [chmod command](https://www.starmessagesoftware.com/crccheckcopy/download#chmod-command-macos).   
