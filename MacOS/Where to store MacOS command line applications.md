@@ -21,14 +21,17 @@ Comparison of the benefits and dissadvanages of each location:
 | Folder contents available to all users. | Folder contents available only to current user. |
 | The folder probably already exists and contains other utilities as well. | The folder probably does not exist. |
 | If the folder does not exist, you can create it via the finder or from the Terminal with the command:<br/>```sh sudo mkdir -p /usr/local/bin ``` | If the folder does not exist, you can create it via the finder or from the Terminal with the command:<br/>```sh mkdir ~/bin ``` |
-| Is part of the PATH so you can call the program by its name. | Not part of the PATH<sup>*</sup>, but you can call it using the ~/bin/. prefix, e.g. for CrcCheckCopy, call it as ~/bin/CrcCheckCopy |
-| Stored together with other command-line utilities that get installed by other apps. |  Dedicated to your downloaded applications. Easy to remember which file is for what purpose.  |
+| Is part of the PATH so you can call the program by its name. | Not part of the PATH<sup>*</sup>, but you can call it using the ~/bin/ prefix, e.g. for CrcCheckCopy, call it as ```sh  ~/bin/CrcCheckCopy ``` |
+| Stored together with other command-line utilities that get installed by other apps. |  Dedicated to your manually stored applications. Easy to remember which file is for what purpose.  |
+| Will be wiped if you do a clear MacOS reinstall. | Preserved as part of your Home folder backups. |
 | Fixed folder name. | You can name this folder what ever you want. |
 
-<sup>*</sup>You can add it to the PATH variable by modifying the shell startup scripts (~/.bash_profile for bash which is the standard shell):
+<sup>*</sup>You can add it to the PATH variable by modifying the shell startup scripts (~/.bash_profile for bash which is the standard shell):  
+
 ```sh  export PATH=$PATH:~/bin ```
 
-After you save the command-line Mac utility to the folder you prefer, you still need to give it permissions to run as executable. This needs to be done just once, using the chmod command. For example, for CrcCheckCopy:  
+After you save the command-line Mac utility to the folder you prefer, you still need to give it permissions to run as executable. This needs to be done just once, using the [chmod command](https://www.starmessagesoftware.com/crccheckcopy/download#chmod-command-macos).   
+For example, for CrcCheckCopy:   
 ```sh  chmod a+x ~/bin/CrcCheckCopy ```
 
 
