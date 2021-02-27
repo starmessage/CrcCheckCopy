@@ -9,12 +9,13 @@ More info at the [CrcCheckCopy website](https://www.StarMessageSoftware.com/crcc
 ## Features
 - Compare folders.
 - Compare file contents and verify them.
+- Finds zero sized files.
 - Finds duplicate files (since ver 2.2), even if they have different filenames and different extensions and are stored in completely different folders.
 - Creates the CRC hash of each file (like a digital signature of the file).
 - Creates a single file with the CRC hashes of every file. This file can be used to compare another folder, or to verify the same folder in the future: to make sure that no file was deleted in the meantime or has been altered. In this way, it adds a digital signature to the whole folder structure and its files.
 - No need for concurrent access to the two folders that must be compared.
 - No need for network connection or internet bandwidth when comparing folders on remote computers: Only the CRC signatures file needs to be transferred between them. The program will run locally.
-- Ensure integrity of backups: Store the CRC file together with the backup and you will be able to validate the integrity of the files and their contents at any time in the future.
+- Ensure integrity of backups: You can store the CRC file together with the backup and you will be able to validate the integrity of the files and their contents at any time in the future.
 - Cross platform (Windows, MacOS)
 - Portable app. No installation needed. 
 - Continue the comparison on another Operating System: Lets you compare a folder structure on Windows with its backup copy on a Mac/Macbook.
