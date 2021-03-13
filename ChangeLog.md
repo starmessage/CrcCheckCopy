@@ -8,6 +8,14 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
+## [2.4] - 2021-03-14
+
+### Added
+- Help information for the /d command (find duplicate files).
+
+### Fixed
+- But in reading the license file of the PRO edition.
+
 ## [2.2] - 2021-02-26
 
 ### Added
