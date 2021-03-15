@@ -8,13 +8,18 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
+## [2.4.1] - 2021-03-15 (Windows only edition)
+
+### Fixed
+- Bug in reading the license file of the PRO edition under Windows.
+
 ## [2.4] - 2021-03-14
 
 ### Added
-- Help information for the /d command (find duplicate files).
+- Help information for the /d command ([find duplicate files](https://www.starmessagesoftware.com/crccheckcopy/find-duplicate-files-windows-mac)).
 
 ### Fixed
-- But in reading the license file of the PRO edition.
+- Bug in reading the license file of the [PRO edition](https://www.starmessagesoftware.com/crccheckcopy/features#pro).
 
 ## [2.2] - 2021-02-26
 
@@ -25,7 +30,7 @@ This small file can then be used to either check/compare another folder hierarch
 CrcCheckCopy /d path-to-scan-for-duplicates  
 The list of the zero sized files and the duplicate files is saved in a file named "CrcCheckCopy-report-duplicates.txt"  
 You can consider the zero byte files as a special kind of duplicate files: They have the same file size kai same contents.  
-- Donation reminder added. Donations are good for your karma.
+- Donation reminder added. Please [donate!](https://www.starmessagesoftware.com/crccheckcopy/download#donate) It's good karma.
 
 ### Changed
 - During the scan mode, (with the /scan switch) at the end of the CRCstamps.txt file, there is an extra section for the zero-bytes files and duplicate files for you to be notified about them. 
