@@ -30,8 +30,8 @@ anonymous usage data. Google Analytics is the most popular website analytics pla
 
 DISCLAIMER OF WARRANTY
 ----------------------
-This SOFTWARE and the accompanying files and online resources and services are given "as is" and without any warranties
-as of their proper operation or their safe coexistence with other software or data.
+This SOFTWARE and the accompanying files and online resources and services are given "as is" and without any 
+warranties as of their proper operation or their safe coexistence with other software or data.
 NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED.
 
 
