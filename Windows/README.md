@@ -4,8 +4,7 @@ CheckCopy is a free professional command line utility that lets you compare fold
 This is the Windows edition that you can run from the Windows shell/command prompt.   
 See examples of the command line syntax at our website: [Compare folders on Windows](https://www.starmessagesoftware.com/crccheckcopy/how-it-works#compare-folders-windows-10)
 
-[Program's version history](https://github.com/starmessage/CrcCheckCopy/blob/master/ChangeLog.md)
-[This file](https://github.com/starmessage/CrcCheckCopy/tree/master/MacOS)
+- [Program's version history](https://github.com/starmessage/CrcCheckCopy/blob/master/ChangeLog.md)
+- [This file](https://github.com/starmessage/CrcCheckCopy/tree/master/Windows)
 
-[![HitCount](http://hits.dwyl.io/starmessage/badges.svg)](https://www.starmessagesoftware.com/)
-[![Analytics](https://ga-beacon.appspot.com/UA-385839-11/github.com/starmessage/CrcCheckCopy/README.md)](https://GitHub.com/starmessage/CrcCheckCopy)
+
