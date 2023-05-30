@@ -8,6 +8,9 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
+## [2.6.1] - 2023-05-30
+- Fixed: when a filename or path contains the quote (") character the program still calculates the file's CRC but does not verify the CRC and reports an error instead. This can happen on MacOS.
+
 ## [2.6] - 2023-04-08
 - New faster CRC algorithm increases speed to 20x when calculating the CRC from files on the local SSD drive
 - CRCstamps.txt will now include the file modification date. This will allow future versions to complete the verification faster by specifying an optional flag to skip files that have the same modification date.
