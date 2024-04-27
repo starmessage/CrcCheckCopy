@@ -15,6 +15,10 @@ This small file can then be used to either check/compare another folder hierarch
 - In the scan phase, when a file cannot be read, a random CRC is given so that an error will be produced during verification
 - Added error message if the "root" folder to scan or verify does not exist (mainly because of a typing mistake)
 
+Compatibility:
+ - Windows XP to Windows 11. Architectures: 32 and 64 bit.
+ - MacOS.  Architectures: x86_64 and Arm64.
+
 ## [2.6.1] - 2023-05-30
 - Fixed: when a filename or path contains the quote (") character the program still calculates the file's CRC but does not verify the CRC and reports an error instead. This can happen on MacOS.
 
