@@ -8,6 +8,13 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
+
+## [2.7] - 2024-04-27
+- Internal improvements
+- Added Thumbs.db to the ignore list
+- In the scan phase, when a file cannot be read, a random CRC is given so that an error will be produced during verification
+- Added error message if the "root" folder to scan or verify does not exist (mainly because of a typing mistake)
+
 ## [2.6.1] - 2023-05-30
 - Fixed: when a filename or path contains the quote (") character the program still calculates the file's CRC but does not verify the CRC and reports an error instead. This can happen on MacOS.
 
