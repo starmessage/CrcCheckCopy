@@ -12,7 +12,8 @@ More info at the [CrcCheckCopy website](https://www.StarMessageSoftware.com/crcc
 - Finds zero sized files.
 - Finds duplicate files (since ver 2.2), even if they have different filenames and different extensions and are stored in completely different folders.
 - Creates the CRC hash of each file (like a digital signature of the file).
-- Creates a single file with the CRC hashes of every file. This file can be used to compare another folder, or to verify the same folder in the future: to make sure that no file was deleted in the meantime or has been altered. In this way, it adds a digital signature to the whole folder structure and its files.
+- Creates a single file lsting the CRC hashes of every file. This file can be used to compare another folder, or to verify the same folder in the future: to make sure that no file was deleted in the meantime or has been altered.  
+In this way, it adds a digital signature to the whole folder structure and its files.
 - No need for concurrent access to the two folders that must be compared.
 - No need for network connection or internet bandwidth when comparing folders on remote computers: Only the CRC signatures file needs to be transferred between them. The program will run locally.
 - Ensure integrity of backups: You can store the CRC file together with the backup and you will be able to validate the integrity of the files and their contents at any time in the future.
@@ -20,7 +21,7 @@ More info at the [CrcCheckCopy website](https://www.StarMessageSoftware.com/crcc
 - Portable app. No installation needed. 
 - Continue the comparison on another Operating System: Lets you compare a folder structure on Windows with its backup copy on a Mac/Macbook.
 - Creates a report file with the comparison results, the zero sized files and the duplicate files found.
-- The report is in plain text so you can furher process or parse it with other tools, e.g. import in to excel.
+- The report is in plain text so you can furher process or parse it with other tools, e.g. import into excel.
 
 ## Donate
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.starmessagesoftware.com/crccheckcopy/download#donate)
@@ -35,7 +36,7 @@ The comparison is completed in two steps.
 
 ### Step1 (Source scanning): reads all files of the source folder and creates in the current working directory one CRC stamps file ("CRCstamps.txt").
 
-Syntax:
+Syntax (assuming the CrcCheckCopy executable is in the current directory or in the path):
 ```sh
 CrcCheckCopy /scan <SourceFolder>
 ```
@@ -47,9 +48,11 @@ If the path contains spaces, then include the path in quotes, e.g.
 ```sh
 CrcCheckCopy /scan "C:\folder with spaces"
 ```
+The utility will create a file called "CRCstamps.txt" which contains the CRC32 and modification date of every found file.  
 
-### Step2 (Verification): uses the CRC stamps file of Step1 to verify all the files at the destination folder.
-Syntax:
+### Step2 (Verification): uses the CRC stamps file of Step1 to verify all the files at the destination folder.  
+It creates a "CrcCheckCopy-verification-report.txt" file with the verification results.  
+Syntax (assuming the CrcCheckCopy executable is in the current directory or in the path):
 ```sh
 CrcCheckCopy /verify <DestinationFolder>
 ```

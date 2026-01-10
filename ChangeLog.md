@@ -8,8 +8,15 @@ This small file can then be used to either check/compare another folder hierarch
 [CrcCheckCopy website](https://www.starmessagesoftware.com/crccheckcopy).  
 [CrcCheckCopy distribution on GitHub](https://github.com/starmessage/CrcCheckCopy).  
 
+## [2.8]
+- Windows edition: reads files which have long paths (>255 chars)
+- 64bit Windows release to address huge data volumes that the 32bit version cannot handle due to the memory limits of 32bit programs
+- when /sp switch is ON, also shows the total bytes processed in a human-friendly form e.g. MB, GB, TB
+- .localized filename was added in the ignore list
+- While parsing the CRCstamps.txt file, it gives warnings for lines that were not parsed correctly
+	
 
-## [2.7] - 2024-04-27
+## [2.7]
 - Internal improvements
 - Added Thumbs.db to the ignore list
 - In the scan phase, when a file cannot be read, a random CRC is given so that an error will be produced during verification
@@ -19,20 +26,20 @@ Compatibility:
  - Windows XP to Windows 11. Architectures: 32 and 64 bit.
  - MacOS.  Architectures: x86_64 and Arm64.
 
-## [2.6.1] - 2023-05-30
-- Fixed: when a filename or path contains the quote (") character the program still calculates the file's CRC but does not verify the CRC and reports an error instead. This can happen on MacOS.
+## [2.6.1] 
+- Fixed: when a filename or path contains the quote (") character the program still calculates the file's CRC but does not verify the CRC and reports an error instead. This can happen only under MacOS.
 
-## [2.6] - 2023-04-08
+## [2.6]
 - New faster CRC algorithm increases speed to 20x when calculating the CRC from files on the local SSD drive
-- CRCstamps.txt will now include the file modification date. This will allow future versions to complete the verification faster by specifying an optional flag to skip files that have the same modification date.
+- CRCstamps.txt will now include the file modification date. This will allow future versions to complete the verification faster by specifying an optional flag to skip files that have a matching modification date.
 - Internal improvements
 
-## [2.4.1] - 2021-03-15 (Windows only edition)
+## [2.4.1] (Windows only edition)
 
 ### Fixed
 - Bug in reading the license file of the PRO edition under Windows.
 
-## [2.4] - 2021-03-14
+## [2.4]
 
 ### Added
 - Help information for the /d command ([find duplicate files](https://www.starmessagesoftware.com/crccheckcopy/find-duplicate-files-windows-mac)).
@@ -40,7 +47,7 @@ Compatibility:
 ### Fixed
 - Bug in reading the license file of the [PRO edition](https://www.starmessagesoftware.com/crccheckcopy/features#pro).
 
-## [2.2] - 2021-02-26
+## [2.2]
 
 ### Added
 - Find zero byte files.
@@ -54,12 +61,12 @@ You can consider the zero byte files as a special kind of duplicate files: They 
 ### Changed
 - During the scan mode, (with the /scan switch) at the end of the CRCstamps.txt file, there is an extra section for the zero-bytes files and duplicate files for you to be notified about them. 
 
-## [2.1] - 2020-09-29
+## [2.1]
 
 ### Added
 - For the Windows edition: Digitally code-signed.
 
-## [2.0] - 2020-07-20
+## [2.0]
 
 ### Fixed
 
@@ -71,13 +78,13 @@ But the comparison was proceeding reliably, despite the warning message. Checkin
 - Better error message when the CRCstamps.txt cannot be created (while scanning the files)
 - Better error message when the CRCstamps.txt file is not found or could not be opened (while verifying the files).
 
-## [1.9] - 2020-02-04
+## [1.9]
 
 ### Fixed
 
 - When the folder to scan does not exist, the CRCstamps.txt looks as invalid.
 
-## [1.8] - 2019-08-19
+## [1.8]
 
 ### Fixed
 
@@ -87,14 +94,14 @@ But the comparison was proceeding reliably, despite the warning message. Checkin
 
 - Internal improvements
 
-## [1.7] - 2019-06-06
+## [1.7]
 
 ### Changed
 
 - Internal improvements for large files (>4GB) under Windows
 - Ignore empty lines in CRCstamps.txt
 
-## [1.6] - 2019-06-05
+## [1.6]
 
 ### Changed
 - Internal improvements
@@ -106,7 +113,7 @@ This is a completely anonymised solution that will help us deliver a better prod
 During the first run the program will ask for your consent to enable SoftMeter.  
 More info at https://www.starmessagesoftware.com/softmeter/data
 
-## [1.5] - 2018-09-02
+## [1.5]
 
 ### Added
 - Sorting of filepaths.  
@@ -127,7 +134,7 @@ The program will show a file counter next to the "Ok" indicator, e.g. 1293/18747
 During the CRC verification mode, the total files are not shown.  
 You can enable the progress indicator using the switch "/sp" (show progress).
 
-## [1.4] - 2018-07-23
+## [1.4]
 
 ### Added
 - MacOS edition. CrcCheckCopy is now a cross platform command line utility: Runs under Windows and Mac OSX  
@@ -137,18 +144,18 @@ You can enable the progress indicator using the switch "/sp" (show progress).
 - Internal improvements
 
 
-## [1.3.1] - 2018-07-13
+## [1.3.1]
 
 ### Fixed
 - 32 bit compatibility restored
 
 
-## [1.3] - 2018-07-12
+## [1.3]
 
 ### Fixed
 - Bug in the performance statistics report for total sizes > 2GB
 
-## [1.2] - 2018-07-10
+## [1.2]
 
 ### Added
 - Performance statistics (kb/sec processed, files/sec processed).  
@@ -159,14 +166,14 @@ You can enable the progress indicator using the switch "/sp" (show progress).
 - Save the CRCs in HEX instead of decimal.  
   If you have CRC stamp files of previous versions (with decimal numbers) and you want to reuse those files in the future, then keep also a copy of CrcCheckCopy v1.1 that is able to read them.
 
-## [1.1] - 2018-06-26
+## [1.1]
 
 ### Fixed
 - Removed the dependency on "msvcp140.dll" & "vcruntime140.dll".  
   Now, no extra files are needed.
 - Problems files/folders with unicode/Arabic/Persian/Greek file names.
 
-## [1.0] - Initial public release
+## [1.0]
 
 ### Added
 - Windows XP support
